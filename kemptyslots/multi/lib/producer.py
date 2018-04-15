@@ -2,6 +2,7 @@ from threading import Thread
 import time
 import random
 
+
 class ProducerThread(Thread):
 
     def __init__(self, queue): 

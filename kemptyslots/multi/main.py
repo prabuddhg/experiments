@@ -6,7 +6,6 @@ import time
 print("Start process")
 t0 = time.time()
 
-
 queue = Queue(10)
 producer_obj = producer.ProducerThread(queue)
 producer_obj.start()
